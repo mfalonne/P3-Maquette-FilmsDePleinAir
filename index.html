@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>FilmsPleinAir</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#myNavbar">
+
+        <nav id="myNavbar" class="navbar navbar-expand-lg bg-body-tertiary sticky-top perso_bgBlue">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="./img/persoLogo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link text-uppercase menu active" aria-current="page" href="#festival">Le Festival</a>
+                    <a class="nav-link text-uppercase menu" href="reservation.html#reservation">Réservation</a>
+                    <a class="nav-link text-uppercase menu" href="contact.html#contact">Contact</a>
+                    <a class="nav-link text-uppercase menu" href="#films">Films</a>
+                    <a class="nav-link text-uppercase menu" href="actualites.html#actualites">actualités</a>
+                </div>
+                </div>
+            </div>
+        </nav>
+        <section id="banniere" class="container-fluid" style="background: url(./img/bg-ban.PNG)fixed center/cover;">
+            <div>
+                <a href="#festival"><i class="fa-solid fa-chevron-down fa-beat-fade"></i></a>
+            </div>
+        </section>
+        <section id="festival" class="container-fluid persoMarginSection">
+            <div class="container m-auto">
+                <div class="row">
+                    <h1 class="text-center"> <em>L</em>E FESTIVAL ET <em>S</em>ON ASSOCIATION</h1>
+                    <p class="lh-lg mt-5 text-center">Les films en Plein Air, c’est un nouveau concept qui se lance cet été sur Paris. Avec comme principal objectif de rassembler dans un même lieu plusieurs générations différentes, cette première édition vous attend au Parc Monceau du 05 au 08 Août !
+                    </br>
+                        Alors, prêt pour passer un bon moment en famille ou avec des amis ?
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="films" class="container-fluid perso_bgYellow persoMarginSection">
+            <h2 class="text-center pb-4 text-decoration-underline">LES FILMS EN PROJECTIONS </h2>
+            <div class="container pb-4 btn-group d-flex justify-content-center" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-primary boutonClic" data-target="element1">05 Août</button>
+                <button type="button" class="btn btn-primary boutonClic" data-target="element2" >06 Août</button>
+                <button type="button" class="btn btn-primary boutonClic" data-target="element3" >07 Août</button>
+                <button type="button" class="btn btn-primary boutonClic" data-target="element4" >08 Août</button>
+            </div>
+            <div id="element1" class="elementCible p-2">
+                <div class="film-container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center pb-4" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" data-bs-title=" <p>L'été de ses 16 ans, lors d'une sortie en mer sur la côte normande, Alexis est sauvé héroïquement du naufrage par David, 18 ans. Alexis vient de rencontrer l'ami de ses rêves. Mais le rêve durera-t-il plus qu'un été ? L'été 85... Le film fait partie de la Sélection Officielle Cannes 2020.</p>" >
+                                <div class="card perso_bgBlue" style="width: 100%; max-height: 75vh;">
+                                    <div class="divImg"><img src="./img/films/films-05-08/img1.jpg" class="card-img-top" alt="afficheFilm1"></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Été 85 </h5>
+                                        <p class="card-text">Auteur: François Ozon <br> Genre: Drame <br> Durée: 1h30 min <br> séance à 18h </p>
+                                        <a href="reservation.html#reservation" class="btn btn-primary">Reserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" col-md-4 d-flex justify-content-center align-items-center pb-4" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" data-bs-title=" <p>Plus qu’un grand chef, Adam Jones est une rock star de la cuisine, couronnée par deux étoiles au guide Michelin. Grisé par le succès, arrogant et capricieux, l’enfant terrible de la scène gastronomique parisienne sombre dans l’alcool et la drogue.
+                            Quelques années plus tard, il a retrouvé la voie de la sobriété. Entouré de jeunes commis et chefs de parties, il relance un restaurant londonien, déterminé à obtenir le graal de la gastronomie : une troisième étoile.
+                            Hanté par les fantômes du passé, le chemin de la rédemption s’annonce plus âpre que prévu : il ne lui reste plus qu’une seule chance pour devenir une légende…</p>" >
+                                <div class="card perso_bgBlue" style="width: 100%; max-height: 75vh;">
+                                    <div class="divImg"><img src="./img/films/films-05-08/img2.jpg" class="card-img-top" alt="afficheFilm2"></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title ">A vif</h5>
+                                        <p class="card-text">Auteur: Steven Knight <br> Genre: Comédie, Drame <br> Durée: 1h02 min <br> séance à 20h </p>
+                                        <a href="reservation.html#reservation" class="btn btn-primary">Reserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center pb-4" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" data-bs-title=" <p>Franck et Karine sont obligés de confier leur fille Camille, censée réviser son bac, à son grand-père André, gendarme retraité et psychorigide à souhait. La situation se gâte quand l’autre grand-père, Teddy, ancien gérant de boites de nuit peu fréquentables, débarque à l’improviste ! La cohabitation entre les papis s’avère plus que compliquée et Camille va profiter de leurs querelles pour vivre sa vie comme elle l'a décidé...</p>">
+                                <div class="card perso_bgBlue" style="width: 100%; max-height: 75vh;">
+                                    <div class="divImg"><img src="./img/films/films-05-08/img3.jpg" class="card-img-top" alt="afficheFilm3"></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Papi Sitter</h5>
+                                        <p class="card-text">Auteur: Philippe Guillard <br> Genre: Comédie <br> Durée:1h30 min <br> séance à 22h </p>
+                                        <a href="reservation.html#reservation" class="btn btn-primary">Reserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="element2" class="elementCible p-2" style="display: none;">
+                <div class="film-container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center pb-4" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" data-bs-title=" <p>Tout comme son père y avait travaillé, Hank Grotowski et son fils Sonny travaillent dans le couloir de la mort d'une prison du sud des États-Unis. À la suite du suicide tragique de Sonny, Hank va quitter son poste et faire la connaissance de la femme de Lawrence Musgrove, un Noir qu'il a récemment exécuté</p>" >
+                                <div class="card perso_bgBlue" style="width: 100%; max-height: 75vh;">
+                                    <div class="divImg"><img src="./img/films/films-06-08/img4.jpg" class="card-img-top" alt="afficheFilm4"></div>
+                                    <div class="card-body" >
+                                        <h5 class="card-title"> À l'ombre de la haine</h5>
+                                        <p class="card-text">Auteur: Marc Forester <br> Genre: Drame <br> Durée: 1h10 min <br> séance à 18h </p>
+                                        <a href="reservation.html#reservation" class="btn btn-primary">Reserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center pb-4" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" data-bs-title=" <p>Hirayama travaille à l’entretien des toilettes publiques de Tokyo. Il s’épanouit dans une vie simple, et un quotidien très structuré. Il entretient une passion pour la musique, les livres, et les arbres qu’il aime photographier. Son passé va ressurgir au gré de rencontres inattendues. Une réflexion émouvante et poétique sur la recherche de la beauté dans le quotidien</p>" >
+                                <div class="card perso_bgBlue" style="width: 100%; max-height: 75vh;">
+                                    <div class="divImg"><img src="./img/films/films-06-08/img5.jpg" class="card-img-top" alt="afficheFilm5"></div>
+                                    <div class="card-body" >
+                                        <h5 class="card-title">Wim Wenders</h5>
+                                        <p class="card-text">Auteur: Wim Wenders <br> Genre: Drame <br> Durée: 1h47 min <br> séance à 20h</p>
+                                        <a href="reservation.html#reservation" class="btn btn-primary">Reserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center pb-4" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" data-bs-title=" <p>La lente agonie d'une femme atteinte d'un cancer, assistée de son mari et de son fils.</p>">
+                                <div class="card perso_bgBlue" style="width: 100%; max-height: 75vh;">
+                                    <div class="divImg"><img src="./img/films/films-06-08/img6.jpg" class="card-img-top" alt="afficheFilm6"></div>
+                                    <div class="card-body" >
+                                        <h5 class="card-title">La Gueule Ouverte</h5>
+                                        <p class="card-text">Auteur: Maurice Pialat <br> Genre: Drame <br> Durée: 1h30 min <br> séance à 22h.</p>
+                                        <a href="reservation.html#reservation" class="btn btn-primary">Reserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="element3" class="elementCible p-2" style="display: none;">
+                <div class="film-container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center pb-4" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" data-bs-title=" <p>Lucy Neal, une violoniste, se remet en question après que son ex-petit ait décidé de rompre, la jugeant trop inhibée. Afin de lui prouver le contraire, elle se lance dans la création d'une liste d'actions sauvages à réaliser.</p>" >
+                                <div class="card perso_bgBlue" style="width: 100%; max-height: 75vh;">
+                                    <div class="divImg"><img src="./img/films/films-07-08/img7.jpg" class="card-img-top" alt="afficheFilm7"></div>
+                                    <div class="card-body" >
+                                        <h5 class="card-title">Célibataire Cherche L'Amour</h5>
+                                        <p class="card-text">Auteur:  Nick Riedell, Chris Riedell <br> Genre: Comedie, Romance <br> Durée: 1h30 min <br> séance à 18h.</p>
+                                        <a href="reservation.html#reservation" class="btn btn-primary">Reserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center pb-4" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" data-bs-title=" <p>Une famille embarque dans son monospace flambant neuf, au petit matin, afin d'éviter les embouteillages pour les vacances d’été. Tom, le père, enclenche son régulateur de vitesse électronique sur 130 km/h. Au moment où une dernière bourde de Ben, le beau-père, pousse Julia, excédée, à demander qu'on fasse demi-tour, Tom s'aperçoit qu'il ne contrôle plus son véhicule. L'électronique de bord ne répond plus, la vitesse est bloquée à 130 km/h. Toutes les manœuvres pour ralentir la voiture emballée restent sans effet. Une voiture folle, six passagers au bord de la crise de nerfs et un embouteillage monstre qui les attend à moins de deux cents kilomètres de là...</p>" >
+                                <div class="card perso_bgBlue" style="width: 100%; max-height: 75vh;">
+                                    <div class="divImg"><img src="./img/films/films-07-08/img8.jpg" class="card-img-top" alt="afficheFilm8"></div>
+                                    <div class="card-body" >
+                                        <h5 class="card-title">À Fond</h5>
+                                        <p class="card-text">Auteur: Nicolas Benamou <br> Genre: Comedie, Action <br> Durée: 1h30 min <br> séance à 20h.</p>
+                                        <a href="reservation.html#reservation" class="btn btn-primary">Reserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center pb-4" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" data-bs-title=" <p>Partie à la recherche d'un cadavre, Prudence Beresford se fait engager comme cuisinière dans un chateau où est réunie une bien curieuse famille et où d'authentiques sarcophages recèlent de bien étranges surprises. Bélisaire volera à son secours...</p>">
+                                <div class="card perso_bgBlue" style="width: 100%; max-height: 75vh;">
+                                    <div class="divImg"><img src="./img/films/films-07-08/img9.jpg" class="card-img-top" alt="afficheFilm9"></div>
+                                    <div class="card-body" >
+                                        <h5 class="card-title">Le Crime Est Notre Affaire</h5>
+                                        <p class="card-text">Auteur: Pascal Thomas <br> Genre: Comedie <br> Durée: 1h30 min <br> séance à 20h.</p>
+                                        <a href="reservation.html#reservation" class="btn btn-primary">Reserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="element4" class="elementCible p-2" style="display: none;">
+                <div class="film-container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center pb-4" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" data-bs-title=" <p>Au début des années 1980, en Allemagne de l'Est, un agent secret, nommé Wiesler, a pour mission d'observer un couple d'intellectuels. Ces derniers vont le fasciner de plus en plus...</p>" >
+                                <div class="card perso_bgBlue" style="width: 100%; max-height: 75vh;">
+                                    <div class="divImg"><img src="./img/films/films-08-08/img10.jpg" class="card-img-top" alt="afficheFilm10"></div>
+                                    <div class="card-body" >
+                                        <h5 class="card-title">La Vie Des Autres</h5>
+                                        <p class="card-text">Auteur:  Florian Henckel von Donnersmarck <br> Genre: Drame <br> Durée: 1h30 min <br> séance à 18h.</p>
+                                        <a href="reservation.html#reservation" class="btn btn-primary">Reserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center pb-4" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" data-bs-title=" <p>L’argent. Le pouvoir. Les femmes. La drogue. Les tentations étaient là, à portée de main, et les autorités n’avaient aucune prise. Aux yeux de Jordan et de sa meute, la modestie était devenue complètement inutile. Trop n’était jamais assez…</p>" >
+                                <div class="card perso_bgBlue" style="width: 100%; max-height: 75vh;">
+                                    <div class="divImg"><img src="./img/films/films-08-08/img11.jpg" class="card-img-top" alt="afficheFilm11"></div>
+                                    <div class="card-body" >
+                                        <h5 class="card-title">Le Loup De Wall Street</h5>
+                                        <p class="card-text">Auteur: Martin Scorsese <br> Genre: Drame <br> Durée: 1h30 min <br> séance à 20h.</p>
+                                        <a href="reservation.html#reservation" class="btn btn-primary">Reserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center align-items-center pb-4" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true" data-bs-title=" <p>Comme beaucoup de ceux qui choisissent de vivre au fin fond de l’Alaska, John Ottway a quelque chose à fuir. De sa vie d’avant, il garde le souvenir d’une femme, une photo qu’il tient toujours contre lui, et beaucoup de regrets.
+                            Désormais, il travaille pour une compagnie pétrolière et protège les employés des forages contre les attaques des animaux sauvages.</p>">
+                                <div class="card perso_bgBlue" style="width: 100%; max-height: 75vh;">
+                                    <div class="divImg"><img src="./img/films/films-08-08/img12.jpg" class="card-img-top" alt="afficheFilm12"></div>
+                                    <div class="card-body" >
+                                        <h5 class="card-title">Le Territoire Des Loups</h5>
+                                        <p class="card-text">Auteur: Joe Carnahan <br> Genre: Drame <br> Durée: 1h30 min <br> séance à 22h.</p>
+                                        <a href="reservation.html#reservation" class="btn btn-primary">Reserver</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class=" footer container-fluid">
+            <div class=" container bloc-footer text-center ">
+                <div class="row p-4">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h3 class="py-2">SUIVEZ - NOUS</h3>
+                            <div>
+                                <a href=""><i class="fa-brands fa-facebook px-2"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram px-2"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter px-2"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="py-2">FILMS DE PLEIN AIR</h3>
+                            <div>
+                                <a href="index.html#festival" class="d-block">Le Festival</a>
+                                <a href="reservation.html#reservation" class="d-block">Réservation</a>
+                                <a href="contact.html#contact" class="d-block">Contact</a>
+                                <a href="#films" class="d-block">Films</a>
+                                <a href="actualites.html#actualites" class="d-block">Actualités</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="py-2">CONTACT</h3>
+                            <div>
+                                <span class="d-block">Parc Monceau</span>
+                                <span class="d-block">75008 Paris</span>
+                                <span class="d-block">06.06.06.06.06</span>
+                                <span class="d-block">contact@fimls-plein-air.org</span>
+                            </div>
+                            <div class="pt-2"><a href="mentionsLegal.html#mentionsLegal"> MENTIONS LEGALES </a></div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="border-bottom border-secondary border-opacity-10">
+            </div>
+            <div class=" text-center p-3">
+                <div>
+                    <a href="mentionsLegal.html#cgu">CGU |</a>
+                    <a href="mentionsLegal.html#politiquesCookies">Politiques de cookies |</a>
+                    <a href="mentionsLegal.html#donneePersonnelles">Données personnelles</a>
+                </div>
+                <div>Retrouvez  tous nos films projetés ici : <a href="index.html#films">Films</a></div>    
+            </div>
+            <div class="border-bottom border-secondary border-opacity-10">
+            </div>
+            <div class="text-center p-3">Conception et réalisation : Falonne MUYOMBO</div>   
+        </footer>
+        <div class="cookie-container" id="cookieContainer">
+            <p class="mb-0">Ce site utilise des cookies pour vous offrir la meilleure expérience utilisateur. En continuant à naviguer sur ce site, vous acceptez notre utilisation des cookies.</p>
+            <button class="cookie-btn" onclick="acceptCookies()">J'accepte</button>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
