@@ -89,7 +89,7 @@ nav .menu:hover{
 /***************** festival*****************************/
 em{
     color: #E1A624;
-     font-size: 95px;
+     font-size: 85px;
 }
 #actualites em,
 #meteo em,
@@ -127,7 +127,7 @@ footer a:hover {
      color: #E1A624 !important ;
      border-bottom: 1px solid;
 }
-
+/********cookies*********************/
 .cookie-container {
     position: fixed;
     top: 80%;
@@ -152,3 +152,14 @@ footer a:hover {
     cursor: pointer;
     font-weight: bold;
 }
+/**/
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 990px) { 
+    .h1festival,
+    .h2actualites {
+        font-size: 20px !important;
+    }
+    em {
+        font-size: 40px;
+    }
+ }
